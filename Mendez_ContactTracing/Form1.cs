@@ -83,7 +83,7 @@ namespace Mendez_ContactTracing
             outputFile.WriteLine(txtboxLname.Text);
             outputFile.WriteLine(txtboxAge.Text);
             outputFile.WriteLine(txtboxAddress.Text);
-            outputFile.WriteLine(txtboxContact);
+            outputFile.WriteLine(txtboxContact.Text);
             outputFile.WriteLine("================");
             outputFile.WriteLine(" ");
             outputFile.Close();
