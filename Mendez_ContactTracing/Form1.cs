@@ -21,5 +21,30 @@ namespace Mendez_ContactTracing
         {
 
         }
+
+        private void txtboxFname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxLname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxAge_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxContact_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -117,6 +117,7 @@ namespace Mendez_ContactTracing
             this.txtboxFname.Name = "txtboxFname";
             this.txtboxFname.Size = new System.Drawing.Size(133, 22);
             this.txtboxFname.TabIndex = 7;
+            this.txtboxFname.TextChanged += new System.EventHandler(this.txtboxFname_TextChanged);
             // 
             // txtboxLname
             // 
@@ -124,6 +125,7 @@ namespace Mendez_ContactTracing
             this.txtboxLname.Name = "txtboxLname";
             this.txtboxLname.Size = new System.Drawing.Size(133, 22);
             this.txtboxLname.TabIndex = 8;
+            this.txtboxLname.TextChanged += new System.EventHandler(this.txtboxLname_TextChanged);
             // 
             // txtboxAge
             // 
@@ -131,6 +133,7 @@ namespace Mendez_ContactTracing
             this.txtboxAge.Name = "txtboxAge";
             this.txtboxAge.Size = new System.Drawing.Size(88, 22);
             this.txtboxAge.TabIndex = 9;
+            this.txtboxAge.TextChanged += new System.EventHandler(this.txtboxAge_TextChanged);
             // 
             // txtboxAddress
             // 
@@ -139,6 +142,7 @@ namespace Mendez_ContactTracing
             this.txtboxAddress.Name = "txtboxAddress";
             this.txtboxAddress.Size = new System.Drawing.Size(292, 55);
             this.txtboxAddress.TabIndex = 10;
+            this.txtboxAddress.TextChanged += new System.EventHandler(this.txtboxAddress_TextChanged);
             // 
             // txtboxContact
             // 
@@ -146,6 +150,7 @@ namespace Mendez_ContactTracing
             this.txtboxContact.Name = "txtboxContact";
             this.txtboxContact.Size = new System.Drawing.Size(165, 22);
             this.txtboxContact.TabIndex = 11;
+            this.txtboxContact.TextChanged += new System.EventHandler(this.txtboxContact_TextChanged);
             // 
             // btnSave
             // 
