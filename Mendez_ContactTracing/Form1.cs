@@ -16,5 +16,10 @@ namespace Mendez_ContactTracing
         {
             InitializeComponent();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
