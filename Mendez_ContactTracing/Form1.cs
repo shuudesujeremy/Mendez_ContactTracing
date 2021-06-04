@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -47,6 +48,11 @@ namespace Mendez_ContactTracing
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -75,5 +81,7 @@ namespace Mendez_ContactTracing
         {
 
         }
+
+      
     }
 }
