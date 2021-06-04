@@ -52,9 +52,18 @@ namespace Mendez_ContactTracing
             this.Close();
         }
 
+        void NewForm()
+        {
+            txtboxFname.Text = "";
+            txtboxLname.Text = "";
+            txtboxAge.Text = "";
+            txtboxAddress.Text = "";
+            txtboxContact.Text = "";
+        }
+
         private void btnNew_Click(object sender, EventArgs e)
         {
-
+            NewForm();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
