@@ -50,7 +50,10 @@ namespace Mendez_ContactTracing
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            StreamWriter outputFile;
+            outputFile = File.AppendText("Contact.txt");
+            outputFile.WriteLine(" ");
+            outputFile.Close();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
