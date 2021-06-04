@@ -36,6 +36,11 @@ namespace Mendez_ContactTracing
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.txtboxFname = new System.Windows.Forms.TextBox();
+            this.txtboxLname = new System.Windows.Forms.TextBox();
+            this.txtboxAge = new System.Windows.Forms.TextBox();
+            this.txtboxAddress = new System.Windows.Forms.TextBox();
+            this.txtboxContact = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -96,17 +101,58 @@ namespace Mendez_ContactTracing
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(101, 306);
+            this.label7.Location = new System.Drawing.Point(101, 335);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(114, 17);
             this.label7.TabIndex = 6;
             this.label7.Text = "Contact Number:";
+            // 
+            // txtboxFname
+            // 
+            this.txtboxFname.Location = new System.Drawing.Point(190, 141);
+            this.txtboxFname.Name = "txtboxFname";
+            this.txtboxFname.Size = new System.Drawing.Size(133, 22);
+            this.txtboxFname.TabIndex = 7;
+            // 
+            // txtboxLname
+            // 
+            this.txtboxLname.Location = new System.Drawing.Point(190, 172);
+            this.txtboxLname.Name = "txtboxLname";
+            this.txtboxLname.Size = new System.Drawing.Size(133, 22);
+            this.txtboxLname.TabIndex = 8;
+            // 
+            // txtboxAge
+            // 
+            this.txtboxAge.Location = new System.Drawing.Point(147, 203);
+            this.txtboxAge.Name = "txtboxAge";
+            this.txtboxAge.Size = new System.Drawing.Size(88, 22);
+            this.txtboxAge.TabIndex = 9;
+            // 
+            // txtboxAddress
+            // 
+            this.txtboxAddress.Location = new System.Drawing.Point(175, 248);
+            this.txtboxAddress.Multiline = true;
+            this.txtboxAddress.Name = "txtboxAddress";
+            this.txtboxAddress.Size = new System.Drawing.Size(292, 55);
+            this.txtboxAddress.TabIndex = 10;
+            // 
+            // txtboxContact
+            // 
+            this.txtboxContact.Location = new System.Drawing.Point(221, 335);
+            this.txtboxContact.Name = "txtboxContact";
+            this.txtboxContact.Size = new System.Drawing.Size(165, 22);
+            this.txtboxContact.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtboxContact);
+            this.Controls.Add(this.txtboxAddress);
+            this.Controls.Add(this.txtboxAge);
+            this.Controls.Add(this.txtboxLname);
+            this.Controls.Add(this.txtboxFname);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -130,6 +176,11 @@ namespace Mendez_ContactTracing
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtboxFname;
+        private System.Windows.Forms.TextBox txtboxLname;
+        private System.Windows.Forms.TextBox txtboxAge;
+        private System.Windows.Forms.TextBox txtboxAddress;
+        private System.Windows.Forms.TextBox txtboxContact;
     }
 }
 
