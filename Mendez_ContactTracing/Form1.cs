@@ -92,7 +92,9 @@ namespace Mendez_ContactTracing
 
         private void btnRead_Click(object sender, EventArgs e)
         {
-
+            StreamReader inputFile;
+            inputFile = File.OpenText("Contact.txt");
+            MessageBox.Show(inputFile.ReadToEnd());
         }
 
       
