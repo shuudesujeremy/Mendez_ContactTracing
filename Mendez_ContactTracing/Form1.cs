@@ -77,7 +77,17 @@ namespace Mendez_ContactTracing
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-
+            StreamWriter outputFile;
+            outputFile = File.AppendText("Contact.txt");
+            outputFile.Write(txtboxFname.Text + " ");
+            outputFile.WriteLine(txtboxLname.Text);
+            outputFile.WriteLine(txtboxAge.Text);
+            outputFile.WriteLine(txtboxAddress.Text);
+            outputFile.WriteLine(txtboxContact);
+            outputFile.WriteLine("================");
+            outputFile.WriteLine(" ");
+            outputFile.Close();
+            
         }
 
         private void btnRead_Click(object sender, EventArgs e)
