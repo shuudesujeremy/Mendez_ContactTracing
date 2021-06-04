@@ -41,6 +41,10 @@ namespace Mendez_ContactTracing
             this.txtboxAge = new System.Windows.Forms.TextBox();
             this.txtboxAddress = new System.Windows.Forms.TextBox();
             this.txtboxContact = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnRead = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -143,11 +147,51 @@ namespace Mendez_ContactTracing
             this.txtboxContact.Size = new System.Drawing.Size(165, 22);
             this.txtboxContact.TabIndex = 11;
             // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(190, 389);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 12;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
+            // btnNew
+            // 
+            this.btnNew.Location = new System.Drawing.Point(299, 389);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(75, 23);
+            this.btnNew.TabIndex = 13;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
+            // 
+            // btnRead
+            // 
+            this.btnRead.Location = new System.Drawing.Point(404, 389);
+            this.btnRead.Name = "btnRead";
+            this.btnRead.Size = new System.Drawing.Size(75, 23);
+            this.btnRead.TabIndex = 14;
+            this.btnRead.Text = "Read";
+            this.btnRead.UseVisualStyleBackColor = true;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(512, 389);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 15;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnRead);
+            this.Controls.Add(this.btnNew);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtboxContact);
             this.Controls.Add(this.txtboxAddress);
             this.Controls.Add(this.txtboxAge);
@@ -181,6 +225,10 @@ namespace Mendez_ContactTracing
         private System.Windows.Forms.TextBox txtboxAge;
         private System.Windows.Forms.TextBox txtboxAddress;
         private System.Windows.Forms.TextBox txtboxContact;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnRead;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
